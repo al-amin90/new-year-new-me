@@ -171,3 +171,77 @@ main {
     margin-top: 10px;
     margin-bottom: 130px;
 }
+
+/* positive mind banner style is here  */
+
+.positive-mind-banner {
+    margin-bottom: 130px;
+}
+
+.positive-mind-banner img {
+    position: absolute;
+}
+
+/* footer part style is here  */
+
+footer {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.contact-us {
+    height: 450px;
+    background-color: #151414;
+    color: white;
+    display: flex;
+    padding: 130px 200px 0 200px;
+}
+
+.contact-description h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#deiscription {
+    margin-bottom: 24px;
+    padding-right: 290px;
+    line-height: 20px;
+}
+
+.info {
+    margin-bottom: 16px;
+}
+
+.contact-description a img {
+    margin-top: 20px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.Subscribe {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.contact-info input[type="email"] {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ffffff00;
+    padding: 15px 21px;
+}
+
+#button-Subscribe {
+    background: #005FAC;
+    color: #FFF;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+input[type=email] {
+    -moz-appearance: textfield;
+}
