@@ -13,9 +13,14 @@
     border: 0;
     border-radius: 5px;
     background: #FFF;
-    padding: 20px 25px;
+    padding: 16px 25px;
     color: #005FAC;
     margin-top: 20px;
+}
+
+main {
+    margin: auto;
+    max-width: 1000px;
 }
 
 /* header part style is here  */
@@ -27,7 +32,7 @@
     background-size: cover;
 }
 
-.container {
+.banner-container {
     text-align: right;
     padding: 180px 200px 0 730px;
 }
@@ -37,4 +42,49 @@
     color: white;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+/* my failures info  part style is here  */
+
+.failures {
+    display: flex;
+    gap: 120px;
+    margin-top: 130px;
+}
+
+.failures>img {
+    width: 451px;
+    height: 558px;
+}
+
+.my-failures-info {
+    margin-top: 160px;
+}
+
+.failures-title {
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.my-failures-info p {
+    color: var(--dark-02, #444343);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 80px;
+}
+
+.my-failures-info>p {
+    margin-bottom: 15px;
+}
+
+.failure {
+    display: flex;
+    text-align: center;
+}
+
+.failure img {
+    margin-right: 10px;
 }
