@@ -93,14 +93,16 @@ main {
 
 .why-fail-part {
     text-align: center;
-    margin-top: 130px;
 }
 
-.why-fail-part h3 {
+.why-fail-part h3,
+.my-plans-title {
     color: var(--dark-01, #151414);
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 26px;
+    text-align: center;
+    margin-top: 130px;
 }
 
 .why-fail-part>p {
@@ -138,4 +140,34 @@ main {
     font-size: 15px;
     font-weight: 400;
     line-height: 23px;
+}
+
+/* my plan section style is here  */
+
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-plan {
+    text-align: center;
+}
+
+.my-plan img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.my-plan-title {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.my-plan-description {
+    color: #737272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 130px;
 }
