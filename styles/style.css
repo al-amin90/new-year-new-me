@@ -1,0 +1,40 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.section-deiscription {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.button-paimary {
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 25px;
+    color: #005FAC;
+    margin-top: 20px;
+}
+
+/* header part style is here  */
+
+.header {
+    height: 700px;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: right;
+    padding: 180px 200px 0 730px;
+}
+
+.header-title {
+    font-size: 52px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
